@@ -25,7 +25,7 @@ module.exports = {
 
         preLoaders: [
             // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
-            { test: /\.js$/, loaders: ["source-map-loader", "react-hot"] }
+            { test: /\.js$/, loaders: ["source-map-loader"] }
         ]
     },
     plugins: [
