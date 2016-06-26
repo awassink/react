@@ -1,23 +1,22 @@
-###Install
+#React + Webpack
+##Install
 ```
-npm install
+npm i
 ```
-####Steps that lead to current package.json - already executed in this project.
+##Run
 ```
-npm init
-npm i -g typings typescript webpack
-npm install --save react react-dom
-npm install --save-dev ts-loader source-map-loader
-typings install --global --save dt~react
-typings install --global --save dt~react-dom
+npm run dev
+or
+npm run prod
 ```
 
-###Run
-#####Dev
+##Build
+###Adding types
+[typings.json](./typings.json)
 ```
-webpack -w
+Globally install typings
+npm i -g typings
+Example
+typings install --global --save dt~react
 ```
-#####Prod
-```
-webpack -p
-```
+
